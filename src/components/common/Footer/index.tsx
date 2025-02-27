@@ -3,6 +3,7 @@ import { SvgIcon, Typography } from '@mui/material'
 import GitHubIcon from '@mui/icons-material/GitHub'
 import DiscordIcon from '@/public/images/common/discord-icon.svg'
 import TelegramIcon from '@mui/icons-material/Telegram'
+import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import TwitterIcon from '@mui/icons-material/X'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
@@ -84,18 +85,23 @@ const Footer = (): ReactElement | null => {
 
         <>
           <li>
-            <ExternalLink href="https://discord.gg/safe" noIcon sx={{ svg: { mr: 0.5 } }}>
+            <ExternalLink href="https://discord.com/invite/botanixlabs" noIcon sx={{ svg: { mr: 0.5 } }}>
               <SvgIcon component={DiscordIcon} inheritViewBox fontSize="inherit" />
             </ExternalLink>
           </li>
           <li>
-            <ExternalLink href="https://t.me/safenetwork" noIcon sx={{ svg: { mr: 0.5 } }}>
+            <ExternalLink href="https://botanixlabs.xyz/en/r/tg" noIcon sx={{ svg: { mr: 0.5 } }}>
               <SvgIcon component={TelegramIcon} inheritViewBox fontSize="inherit" />
             </ExternalLink>
           </li>
           <li>
-            <ExternalLink href="https://twitter.com/safe" noIcon sx={{ svg: { mr: 0.5 } }}>
+            <ExternalLink href="https://x.com/botanixlabs" noIcon sx={{ svg: { mr: 0.5 } }}>
               <SvgIcon component={TwitterIcon} inheritViewBox fontSize="inherit" />
+            </ExternalLink>
+          </li>
+          <li>
+            <ExternalLink href="https://www.linkedin.com/company/botanix-labs/" noIcon sx={{ svg: { mr: 0.5 } }}>
+              <SvgIcon component={LinkedInIcon} inheritViewBox fontSize="inherit" />
             </ExternalLink>
           </li>
           <li>
