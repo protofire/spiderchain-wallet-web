@@ -29,7 +29,7 @@ const CustomSafeApps: NextPage = () => {
   return (
     <>
       <Head>
-        <title>{'Safe{Wallet} – Custom Safe Apps'}</title>
+        <title>Botanix Safe – Custom Safe Apps</title>
       </Head>
 
       <SafeAppsSDKLink />

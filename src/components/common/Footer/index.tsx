@@ -1,15 +1,19 @@
 import type { ReactElement, ReactNode } from 'react'
 import { SvgIcon, Typography } from '@mui/material'
 import GitHubIcon from '@mui/icons-material/GitHub'
+import DiscordIcon from '@/public/images/common/discord-icon.svg'
+import TelegramIcon from '@mui/icons-material/Telegram'
+import TwitterIcon from '@mui/icons-material/X'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import css from './styles.module.css'
 import { AppRoutes } from '@/config/routes'
 import packageJson from '../../../../package.json'
-import AppstoreButton from '../AppStoreButton'
 import ExternalLink from '../ExternalLink'
 import MUILink from '@mui/material/Link'
-import { HELP_CENTER_URL, IS_DEV, IS_OFFICIAL_HOST } from '@/config/constants'
+import { HELP_FORM_URL } from '@/config/constants'
+import darkPalette from '@/components/theme/darkPalette'
+import ProtofireLogo from '@/public/images/protofire-logo.svg'
 
 const footerPages = [
   AppRoutes.welcome.index,
@@ -45,7 +49,7 @@ const Footer = (): ReactElement | null => {
   return (
     <footer className={css.container}>
       <ul>
-        {IS_OFFICIAL_HOST || IS_DEV ? (
+        {/* {IS_OFFICIAL_HOST || IS_DEV ? (
           <>
             <li>
               <Typography variant="caption">&copy;2022–{new Date().getFullYear()} Core Contributors GmbH</Typography>
@@ -75,8 +79,32 @@ const Footer = (): ReactElement | null => {
             </li>
           </>
         ) : (
-          <li>{'This is an unofficial distribution of Safe{Wallet}'}</li>
-        )}
+          <li>{'This is an unofficial distribution of Botanix Safe'}</li>
+        )} */}
+
+        <>
+          <li>
+            <ExternalLink href="https://discord.gg/safe" noIcon sx={{ svg: { mr: 0.5 } }}>
+              <SvgIcon component={DiscordIcon} inheritViewBox fontSize="inherit" />
+            </ExternalLink>
+          </li>
+          <li>
+            <ExternalLink href="https://t.me/safenetwork" noIcon sx={{ svg: { mr: 0.5 } }}>
+              <SvgIcon component={TelegramIcon} inheritViewBox fontSize="inherit" />
+            </ExternalLink>
+          </li>
+          <li>
+            <ExternalLink href="https://twitter.com/safe" noIcon sx={{ svg: { mr: 0.5 } }}>
+              <SvgIcon component={TwitterIcon} inheritViewBox fontSize="inherit" />
+            </ExternalLink>
+          </li>
+          <li>
+            <FooterLink href={getHref(AppRoutes.terms)}>Terms</FooterLink>
+          </li>
+          <li>
+            <FooterLink href={getHref(AppRoutes.cookie)}>Cookie policy</FooterLink>
+          </li>
+        </>
 
         <li>
           <ExternalLink href={`${packageJson.homepage}/releases/tag/v${packageJson.version}`} noIcon>
@@ -84,8 +112,27 @@ const Footer = (): ReactElement | null => {
           </ExternalLink>
         </li>
         <li>
-          <AppstoreButton placement="footer" />
+          <ExternalLink href={HELP_FORM_URL} noIcon sx={{ span: { textDecoration: 'underline' } }}>
+            Help
+          </ExternalLink>
         </li>
+        <li>
+          <Typography variant="caption">
+            Supported by{' '}
+            <SvgIcon
+              component={ProtofireLogo}
+              inheritViewBox
+              fontSize="small"
+              sx={{ verticalAlign: 'middle', mx: 0.5 }}
+            />
+            <MUILink href="https://protofire.io" sx={{ color: darkPalette.primary.main, textDecoration: 'none' }}>
+              Protofire
+            </MUILink>
+          </Typography>
+        </li>
+        {/* <li>
+          <AppstoreButton placement="footer" />
+        </li> */}
       </ul>
     </footer>
   )

@@ -1,0 +1,12 @@
+diff --git a/node_modules/@safe-global/protocol-kit/dist/src/utils/eip-3770/config.js b/node_modules/@safe-global/protocol-kit/dist/src/utils/eip-3770/config.js
+index 00ae69d..3b84a50 100644
+--- a/node_modules/@safe-global/protocol-kit/dist/src/utils/eip-3770/config.js
++++ b/node_modules/@safe-global/protocol-kit/dist/src/utils/eip-3770/config.js
+@@ -17,6 +17,7 @@ exports.networks = [
+     { chainId: 25n, shortName: 'cro' },
+     { chainId: 28n, shortName: 'bobarinkeby' },
+     { chainId: 30n, shortName: 'rsk' },
++    { chainId: 3636n, shortName: 'BTNX' },
+     { chainId: 31n, shortName: 'trsk' },
+     { chainId: 39n, shortName: 'u2u' },
+     { chainId: 40n, shortName: 'telosevm' },
