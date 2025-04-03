@@ -3,7 +3,7 @@ import Head from 'next/head'
 import { Typography, Table, TableBody, TableRow, TableCell, TableHead, TableContainer, Box } from '@mui/material'
 import ExternalLink from '@/components/common/ExternalLink'
 import Paper from '@mui/material/Paper'
-import { useIsOfficialHost } from '@/hooks/useIsOfficialHost'
+//import { useIsOfficialHost } from '@/hooks/useIsOfficialHost'
 import { BRAND_NAME } from '@/config/constants'
 
 const SafeLicenses = () => (
@@ -707,7 +707,7 @@ const SafeLicenses = () => (
 )
 
 const Licenses: NextPage = () => {
-  const isOfficialHost = useIsOfficialHost()
+  //const isOfficialHost = useIsOfficialHost()
 
   return (
     <>
@@ -715,7 +715,10 @@ const Licenses: NextPage = () => {
         <title>{`${BRAND_NAME} – Licenses`}</title>
       </Head>
 
-      <main>{isOfficialHost && <SafeLicenses />}</main>
+      <main>
+        {' '}
+        <SafeLicenses />
+      </main>
     </>
   )
 }
