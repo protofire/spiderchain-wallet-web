@@ -7408,35 +7408,35 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@safe-global/protocol-kit@npm:4.1.5":
-  version: 4.1.5
-  resolution: "@safe-global/protocol-kit@npm:4.1.5"
+"@safe-global/protocol-kit@npm:4.1.7":
+  version: 4.1.7
+  resolution: "@safe-global/protocol-kit@npm:4.1.7"
   dependencies:
     "@noble/hashes": "npm:^1.3.3"
     "@safe-global/safe-core-sdk-types": "npm:^5.1.0"
-    "@safe-global/safe-deployments": "npm:^1.37.28"
+    "@safe-global/safe-deployments": "npm:^1.37.31"
     "@safe-global/safe-modules-deployments": "npm:^2.2.1"
     abitype: "npm:^1.0.2"
     ethereumjs-util: "npm:^7.1.5"
     ethers: "npm:^6.13.1"
     semver: "npm:^7.6.2"
-  checksum: 10/e4b4b78527080954fe9523e31571cbe82ef5a6ef0a73dcd5037329761ecf06670f4759da7dbc4fdd1b73bc016314b7297aecd893fb39f98bde69b46ff2e4374a
+  checksum: 10/5d2c46dc053fc921948777c7a8cf460c4fa3c1df52982543aaf5f9f79c2e761b752ad291788c02a329925aa3e9a220ab428141aabcae039532cfc1c1b38aa8d2
   languageName: node
   linkType: hard
 
-"@safe-global/protocol-kit@patch:@safe-global/protocol-kit@npm%3A4.1.5#~/.yarn/patches/@safe-global-protocol-kit-npm-4.1.5-15df80b7bc.patch":
-  version: 4.1.5
-  resolution: "@safe-global/protocol-kit@patch:@safe-global/protocol-kit@npm%3A4.1.5#~/.yarn/patches/@safe-global-protocol-kit-npm-4.1.5-15df80b7bc.patch::version=4.1.5&hash=e03773"
+"@safe-global/protocol-kit@patch:@safe-global/protocol-kit@npm%3A4.1.7#~/.yarn/patches/@safe-global-protocol-kit-npm-4.1.7-274392f7b7.patch":
+  version: 4.1.7
+  resolution: "@safe-global/protocol-kit@patch:@safe-global/protocol-kit@npm%3A4.1.7#~/.yarn/patches/@safe-global-protocol-kit-npm-4.1.7-274392f7b7.patch::version=4.1.7&hash=92cabc"
   dependencies:
     "@noble/hashes": "npm:^1.3.3"
     "@safe-global/safe-core-sdk-types": "npm:^5.1.0"
-    "@safe-global/safe-deployments": "npm:^1.37.28"
+    "@safe-global/safe-deployments": "npm:^1.37.31"
     "@safe-global/safe-modules-deployments": "npm:^2.2.1"
     abitype: "npm:^1.0.2"
     ethereumjs-util: "npm:^7.1.5"
     ethers: "npm:^6.13.1"
     semver: "npm:^7.6.2"
-  checksum: 10/1df91a3e82dc2ac531f01e2b05b1c5232cdb9a0cb659b20e1f576879644b44d2ffd099ce5adf9b29531c22d8132ebcab83a8060b1b40bebaa92ad655c24b381b
+  checksum: 10/d4636c990cae90263e93cc3ae536389a3553a5ea685ce7534d7ba5a1ea6fe5567eb008372ac86e2bc41d04e7f3bf89ac73e417498ebe0fe30ed2a780ef9c9b1f
   languageName: node
   linkType: hard
 
@@ -7468,21 +7468,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@safe-global/safe-deployments@npm:1.37.28":
-  version: 1.37.28
-  resolution: "@safe-global/safe-deployments@npm:1.37.28"
+"@safe-global/safe-deployments@npm:1.37.34":
+  version: 1.37.34
+  resolution: "@safe-global/safe-deployments@npm:1.37.34"
   dependencies:
     semver: "npm:^7.6.2"
-  checksum: 10/b34574a47284a6868718a203d9bb4e0ad3f3c4ba4bd52537ac3e22d83f76c1f2c69816e6346178d329b8cdd3a27dd2cd59c2e1300c1efa92ebb0294fe1b9df69
+  checksum: 10/608f4d3244d5d077ac3b2c29d288c322c5d2323fdabb68c0da2423d20c3631fa6ae73e50bf1646554376da76e4107a8e072730c08d70f465dda39e0656480d5e
   languageName: node
   linkType: hard
 
-"@safe-global/safe-deployments@patch:@safe-global/safe-deployments@npm%3A1.37.28#~/.yarn/patches/@safe-global-safe-deployments-npm-1.37.28-060d6063bb.patch":
-  version: 1.37.28
-  resolution: "@safe-global/safe-deployments@patch:@safe-global/safe-deployments@npm%3A1.37.28#~/.yarn/patches/@safe-global-safe-deployments-npm-1.37.28-060d6063bb.patch::version=1.37.28&hash=506cc8"
+"@safe-global/safe-deployments@patch:@safe-global/safe-deployments@npm%3A1.37.34#~/.yarn/patches/@safe-global-safe-deployments-npm-1.37.34-6843d3a4c2.patch":
+  version: 1.37.34
+  resolution: "@safe-global/safe-deployments@patch:@safe-global/safe-deployments@npm%3A1.37.34#~/.yarn/patches/@safe-global-safe-deployments-npm-1.37.34-6843d3a4c2.patch::version=1.37.34&hash=9a5936"
   dependencies:
     semver: "npm:^7.6.2"
-  checksum: 10/58697f6f531b4771818642042b78076fb8ff69feb37472371ba9b117bcb352e5d877c7cab70de8450574735ff0c989730bde521e83a893e72f3fe5513db9da86
+  checksum: 10/9e05a9c2bb45a633241872f6e864bdbe473aa1fc54dec293b1aa152e5d8ad652a97f69f3671f6bc6b3e628382350d1994373630348af6c343f3ab59120e5562d
   languageName: node
   linkType: hard
 
@@ -7575,11 +7575,11 @@ __metadata:
     "@reduxjs/toolkit": "npm:^2.5.0"
     "@reown/walletkit": "npm:^1.1.1"
     "@safe-global/api-kit": "npm:^2.4.6"
-    "@safe-global/protocol-kit": "patch:@safe-global/protocol-kit@npm%3A4.1.5#~/.yarn/patches/@safe-global-protocol-kit-npm-4.1.5-15df80b7bc.patch"
+    "@safe-global/protocol-kit": "patch:@safe-global/protocol-kit@npm%3A4.1.7#~/.yarn/patches/@safe-global-protocol-kit-npm-4.1.7-274392f7b7.patch"
     "@safe-global/safe-apps-sdk": "npm:^9.1.0"
     "@safe-global/safe-client-gateway-sdk": "npm:v1.60.1"
     "@safe-global/safe-core-sdk-types": "npm:^5.0.1"
-    "@safe-global/safe-deployments": "patch:@safe-global/safe-deployments@npm%3A1.37.28#~/.yarn/patches/@safe-global-safe-deployments-npm-1.37.28-060d6063bb.patch"
+    "@safe-global/safe-deployments": "patch:@safe-global/safe-deployments@npm%3A1.37.34#~/.yarn/patches/@safe-global-safe-deployments-npm-1.37.34-6843d3a4c2.patch"
     "@safe-global/safe-gateway-typescript-sdk": "npm:3.22.7"
     "@safe-global/safe-modules-deployments": "npm:^2.2.6"
     "@safe-global/store": "workspace:^"
