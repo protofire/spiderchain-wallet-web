@@ -27,7 +27,6 @@ import { useSafeTokenEnabled } from '@/hooks/useSafeTokenEnabled'
 import { BRAND_NAME } from '@/config/constants'
 import { FEATURES } from '@safe-global/utils/utils/chains'
 
-
 type HeaderProps = {
   onMenuToggle?: Dispatch<SetStateAction<boolean>>
   onBatchToggle?: Dispatch<SetStateAction<boolean>>
