@@ -7,7 +7,6 @@ import SafePrivacyPolicy from '@/markdown/privacy/privacy.md'
 import { BRAND_NAME } from '@/config/constants'
 
 const overrideComponents: MDXComponents = {
-  // @ts-expect-error
   a: CustomLink,
 }
 
