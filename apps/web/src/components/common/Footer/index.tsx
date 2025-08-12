@@ -12,7 +12,7 @@ import { AppRoutes } from '@/config/routes'
 import packageJson from '../../../../package.json'
 import ExternalLink from '../ExternalLink'
 import MUILink from '@mui/material/Link'
-import { HELP_FORM_URL } from '@/config/constants'
+import { PROTOFIRE_SUPPORT_LINK } from '@/config/constants'
 import darkPalette from '@/components/theme/darkPalette'
 import ProtofireLogo from '@/public/images/protofire-logo.svg'
 
@@ -119,7 +119,7 @@ const Footer = (): ReactElement | null => {
           </ExternalLink>
         </li>
         <li>
-          <ExternalLink href={HELP_FORM_URL} noIcon sx={{ span: { textDecoration: 'underline' } }}>
+          <ExternalLink href={PROTOFIRE_SUPPORT_LINK} noIcon sx={{ span: { textDecoration: 'underline' } }}>
             Help
           </ExternalLink>
         </li>

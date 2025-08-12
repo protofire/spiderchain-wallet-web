@@ -1,5 +1,4 @@
 import chains from './chains'
-import { HELP_CENTER_URL } from '@safe-global/utils/config/constants'
 
 export const IS_PRODUCTION = process.env.NEXT_PUBLIC_IS_PRODUCTION === 'true'
 export const IS_DEV = process.env.NODE_ENV === 'development'
@@ -67,7 +66,7 @@ export enum SafeAppsTag {
 
 // Help Center
 export const HELP_CENTER_URL = 'https://help.safe.global'
-export const HELP_FORM_URL = 'https://safe-support.protofire.io'
+export const PROTOFIRE_SUPPORT_LINK = 'https://safe-support.protofire.io'
 export const SAFE_HELP_CENTER_URL = 'https://help.safe.global'
 
 export const HelpCenterArticle = {
